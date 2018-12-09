@@ -1,7 +1,9 @@
 Interactive Auto App
+
 An interactive application using 3D, video, audio and still images.
 
 Setup
+
 Navigate to htdocs in MAMP.
 
 git clone https://github.com/smalfoy/Ali_S_AutoApp.git
