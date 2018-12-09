@@ -1,0 +1,69 @@
+/* GENERAL STYLES */
+
+body {
+	overflow-X: hidden;
+	background-color: rgb(216, 216, 216);
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.logo img {
+	text-align: center;
+}
+
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav li {
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	text-decoration: none;
+}
+.nav li  a {
+	display: block;
+	font-family: sans-serif;
+	color: #555;
+	font-size: 28px;
+	padding: 0 25px;
+	text-decoration: none;
+}
+
+.nav li  a:hover {
+	color: #3241a8;
+}
+
+button {
+	/* float: right; */
+	/* position:  */
+	background-color: #3241a8;
+	color: rgb(216, 216, 216);
+	font-size: 28px;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-family: sans-serif;
+	border: none;
+	border-radius: 15px 20px;
+	display: block;
+	min-width: 200px;
+	margin: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 2px 2px 15px 0 #666;
+}
+
+.btns {
+	float: right;
+	position: relative;
+	top: 250px;
+}
